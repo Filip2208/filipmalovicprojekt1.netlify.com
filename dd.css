@@ -1,20 +1,11 @@
-h1 {
-  text-align: center;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: gray;
-  color: white;
-  text-align: center;
+  background-color: #333;
 }
-ul.a {
-  background-color: firebrick;
-  color: black;
-}
+
 li a {
   display: block;
   color: white;
@@ -23,21 +14,27 @@ li a {
   text-decoration: none;
 }
 body {
-  color:black ;
-  background-color: firebrick;
+  background-color: gray;
+}
+body {
+  color:firebrick;
 }
 
 h2 {
-  color: black;}
-div.gallery {
+  background-color: black;
+  color: firebrick;
+a {
+    color: black;
+  }
+  div.gallery {
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid #ccc;
     float: left;
     width: 180px;
   }
   
   div.gallery:hover {
-    border: 1px solid black;
+    border: 1px solid #777;
   }
   
   div.gallery img {
@@ -49,15 +46,4 @@ div.gallery {
     padding: 15px;
     text-align: center;
   }
-p {
-  background-color: firebrick;
-  color: black;
-  text-align: center;
-  font-weight: bold;
-}
-img.gal_mapa
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+  
